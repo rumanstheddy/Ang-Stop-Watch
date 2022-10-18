@@ -3,16 +3,21 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ButtonComponent } from './components/button/button.component';
+import { TimerComponent } from './components/timer/timer.component';
+import { StopWatchService } from './services/stop-watch.service';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ButtonComponent,
+    TimerComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [StopWatchService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

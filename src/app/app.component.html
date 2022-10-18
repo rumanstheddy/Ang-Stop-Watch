@@ -1,1 +1,5 @@
-<h1>Stop Watch</h1>
+<h1>{{ title }}</h1>
+<app-timer></app-timer>
+<app-button (click)="start()" text="Start" ></app-button>
+<app-button (click)="pause()" text="Pause"></app-button>
+<app-button (click)="reset()" text="Reset"></app-button>
