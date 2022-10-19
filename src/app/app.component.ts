@@ -8,7 +8,8 @@ import { StopWatchService } from './services/stop-watch.service';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title: string = 'Stop Watch';
+  title_start: string = 'Stop';
+  title_end: string = 'Watch';
   constructor(private stopWatchService: StopWatchService) {}
   @ViewChild(ButtonComponent, { static: true })
   buttonCmpt: ButtonComponent = new ButtonComponent(this.stopWatchService);
