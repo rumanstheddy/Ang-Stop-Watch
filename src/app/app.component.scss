@@ -1,0 +1,40 @@
+.app-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  font-size: 60pt;
+}
+
+.mat-icon {
+  font-size: 45px;
+  text-align: center;
+  height: 45px;
+  width: 45px;
+  margin-left: 10px;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.pauseBtn {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.timerContainer {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}

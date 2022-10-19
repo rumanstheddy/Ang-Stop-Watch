@@ -1,5 +1,14 @@
-<h1>{{ title }}</h1>
-<app-timer></app-timer>
-<app-button (click)="start()" text="Start" ></app-button>
-<app-button (click)="pause()" text="Pause"></app-button>
-<app-button (click)="reset()" text="Reset"></app-button>
+<div class="app-container">
+    <div class="titleContainer">
+        <h1 class="title">{{ title }}</h1>
+        <mat-icon fontIcon="av_timer"></mat-icon>
+    </div>
+    <div class="timerContainer">
+        <app-timer></app-timer>
+    </div>
+    <div class="btnContainer">
+        <app-button (click)="start()" text="Start"></app-button>
+        <app-button (click)="pause()" text="Pause" class="pauseBtn"></app-button>
+        <app-button (click)="reset()" text="Reset"></app-button>
+    </div>
+</div>
