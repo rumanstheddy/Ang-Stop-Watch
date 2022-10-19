@@ -79,6 +79,7 @@ export class TimerComponent implements OnInit {
     clearInterval(this.interval);
     this.millisStr = '00';
     this.secondsStr = '00';
-    console.log(this.interval);
+    this.millis = 0;
+    this.seconds = 0;
   }
 }
