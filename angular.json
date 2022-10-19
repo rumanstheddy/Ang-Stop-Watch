@@ -102,6 +102,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "StopWatch:build:production",
+            "firebaseProject": "stop-watch-47349",
+            "firebaseHostingSite": "stop-watch-47349"
+          }
         }
       }
     }

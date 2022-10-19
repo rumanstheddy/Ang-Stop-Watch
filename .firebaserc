@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "stop-watch-47349": {
+      "hosting": {
+        "StopWatch": [
+          "stop-watch-47349"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "stop-watch-47349"
+  }
+}
