@@ -7,7 +7,7 @@ import { StopWatchService } from 'src/app/services/stop-watch.service';
   styleUrls: ['./button.component.scss'],
 })
 export class ButtonComponent implements OnInit {
-  @Input() text: string = '';
+  @Input() icon_type: string = '';
   // stopWatchService: StopWatchService = new StopWatchService;
 
   constructor(private stopWatchService: StopWatchService) {}
