@@ -28,7 +28,7 @@
 
 @media (max-width: 600px) {
   .title {
-    font-size: 3.5em;
+    font-size: 3em;
   }
 
   .mat-icon {
@@ -59,11 +59,7 @@
   transform: translate(-50%, -50%);
 }
 
-.titleContainer {
-  display: flex;
-  justify-content: center;
-}
-
+.titleContainer,
 .btnContainer {
   display: flex;
   justify-content: center;
