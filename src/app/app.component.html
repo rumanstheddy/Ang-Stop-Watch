@@ -1,15 +1,17 @@
 <div class="app-container">
-    <div class="titleContainer">
-        <h1 class="title">{{ title_start }} </h1>
-        <mat-icon fontIcon="av_timer" class="timerIcon"></mat-icon>
-        <h1 class="title"> {{ title_end }}</h1>
-    </div>
-    <div class="timerContainer">
-        <app-timer></app-timer>
-    </div>
-    <div class="btnContainer">
-        <app-button (click)="start()" icon_type="play_circle_outline"></app-button>
-        <app-button (click)="pause()" icon_type="pause_circle_outline" class="pauseBtn"></app-button>
-        <app-button (click)="reset()" icon_type="replay"></app-button>
+    <div class="timer-grid">
+        <div class="titleContainer col">
+            <h1 class="title">{{ title_start }} </h1>
+            <mat-icon fontIcon="av_timer" class="timerIcon"></mat-icon>
+            <h1 class="title"> {{ title_end }}</h1>
+        </div>
+        <div class="timerContainer col">
+            <app-timer></app-timer>
+        </div>
+        <div class="btnContainer col">
+            <app-button (click)="start()" icon_type="play_circle_outline"></app-button>
+            <app-button (click)="pause()" icon_type="pause_circle_outline" class="pauseBtn"></app-button>
+            <app-button (click)="reset()" icon_type="replay"></app-button>
+        </div>
     </div>
 </div>

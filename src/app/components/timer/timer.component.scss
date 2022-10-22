@@ -1,5 +1,16 @@
 .timer {
   display: flex;
   justify-content: center;
-  font-size: 75pt;
+}
+
+@media (min-width: 600px) {
+  .timer {
+    font-size: 7em;
+  }
+}
+
+@media (max-width: 600px) {
+  .timer {
+    font-size: 6em;
+  }
 }
