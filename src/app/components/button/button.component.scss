@@ -1,11 +1,24 @@
-.mat-fab {
+.btn {
   background-color: white;
   width: 55pt;
   height: 55pt;
 }
 
 .mat-icon {
-    width: 25pt;
-    height: 25pt;
-    font-size: 25pt;
+  width: 25pt;
+  height: 25pt;
+  font-size: 25pt;
+}
+
+@media (max-width: 414px) {
+  .btn {
+    width: 40pt;
+    height: 40pt;
+  }
+
+  .mat-icon {
+    width: 20pt;
+    height: 20pt;
+    font-size: 20pt;
+  }
 }

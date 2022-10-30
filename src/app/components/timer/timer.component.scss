@@ -9,8 +9,14 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 600px) and (min-width: 414px) {
   .timer {
-    font-size: 6em;
+    font-size: 5.5em;
+  }
+}
+
+@media (max-width: 414px) {
+  .timer {
+    font-size: 4.5em;
   }
 }
