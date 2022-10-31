@@ -1,22 +1,35 @@
-.timer {
-  display: flex;
+.time-container {
+  text-align: center;
+}
+
+#timerColon {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.timer-nums,
+#timerColon {
+  display: inline-flex;
   justify-content: center;
 }
 
 @media (min-width: 600px) {
-  .timer {
+  .timer-nums,
+  #timerColon {
     font-size: 7em;
   }
 }
 
 @media (max-width: 600px) and (min-width: 414px) {
-  .timer {
+  .timer-nums,
+  #timerColon {
     font-size: 5.5em;
   }
 }
 
 @media (max-width: 414px) {
-  .timer {
+  .timer-nums,
+  #timerColon {
     font-size: 4.5em;
   }
 }

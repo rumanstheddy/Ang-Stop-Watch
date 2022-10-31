@@ -15,8 +15,13 @@
 
 .circle-container {
   align-items: center;
-  border: 5px solid #fff;
+  align-items: center;
+  border: double 5px transparent;
   border-radius: 50%;
+  background-image: linear-gradient(black, black),
+    linear-gradient(#ffffff, #7a7a7a);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
 }
 
 @media (min-width: 600px) {
@@ -24,12 +29,16 @@
     font-size: 4.5em;
   }
 
-  .mat-icon {
-    font-size: 45px;
-    text-align: center;
-    height: 45px;
-    width: 45px;
-    margin-left: 10px;
+  // .mat-icon {
+  //   font-size: 45px;
+  //   text-align: center;
+  //   height: 45px;
+  //   width: 45px;
+  //   margin-left: 10px;
+  // }
+
+  #titleStart {
+    margin-right: 10px;
   }
 
   .title-container {
@@ -43,7 +52,7 @@
 
   .time {
     margin-top: 60px;
-    margin-bottom: 65px;
+    margin-bottom: 50px;
   }
 
   .circle-container {
@@ -61,14 +70,14 @@
     font-size: 3em;
   }
 
-  .mat-icon {
-    font-size: 40px;
-    text-align: center;
-    height: 40px;
-    width: 40px;
-    margin-left: 2px;
-    margin-right: 2px;
-  }
+  // .mat-icon {
+  //   font-size: 40px;
+  //   text-align: center;
+  //   height: 40px;
+  //   width: 40px;
+  //   margin-left: 2px;
+  //   margin-right: 2px;
+  // }
 
   #pauseBtn {
     margin-left: 15px;
@@ -91,14 +100,14 @@
     font-size: 2.25em;
   }
 
-  .mat-icon {
-    font-size: 30px;
-    text-align: center;
-    height: 30px;
-    width: 30px;
-    margin-left: 2px;
-    margin-right: 2px;
-  }
+  // .mat-icon {
+  //   font-size: 30px;
+  //   text-align: center;
+  //   height: 30px;
+  //   width: 30px;
+  //   margin-left: 2px;
+  //   margin-right: 2px;
+  // }
 
   #pauseBtn {
     margin-left: 15px;
