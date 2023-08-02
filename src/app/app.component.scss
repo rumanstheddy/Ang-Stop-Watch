@@ -15,11 +15,10 @@
 
 .circle-container {
   align-items: center;
-  align-items: center;
   border: double 5px transparent;
   border-radius: 50%;
   background-image: linear-gradient(black, black),
-    linear-gradient(#ffffff, #7a7a7a);
+    linear-gradient(#ffffff, #5c5a5a);
   background-origin: border-box;
   background-clip: content-box, border-box;
 }
@@ -28,14 +27,6 @@
   .title {
     font-size: 4.5em;
   }
-
-  // .mat-icon {
-  //   font-size: 45px;
-  //   text-align: center;
-  //   height: 45px;
-  //   width: 45px;
-  //   margin-left: 10px;
-  // }
 
   #titleStart {
     margin-right: 10px;
@@ -70,15 +61,6 @@
     font-size: 3em;
   }
 
-  // .mat-icon {
-  //   font-size: 40px;
-  //   text-align: center;
-  //   height: 40px;
-  //   width: 40px;
-  //   margin-left: 2px;
-  //   margin-right: 2px;
-  // }
-
   #pauseBtn {
     margin-left: 15px;
     margin-right: 15px;
@@ -100,15 +82,6 @@
     font-size: 2.25em;
   }
 
-  // .mat-icon {
-  //   font-size: 30px;
-  //   text-align: center;
-  //   height: 30px;
-  //   width: 30px;
-  //   margin-left: 2px;
-  //   margin-right: 2px;
-  // }
-
   #pauseBtn {
     margin-left: 15px;
     margin-right: 15px;
@@ -122,5 +95,11 @@
   .circle-container {
     height: 300px;
     width: 300px;
+  }
+
+  ::ng-deep {
+    .mat-button-wrapper {
+      padding-top: 14px !important;
+    }
   }
 }

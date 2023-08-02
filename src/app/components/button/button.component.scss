@@ -22,3 +22,11 @@
     font-size: 20pt;
   }
 }
+
+@media (max-width: 414px) and (min-width: 320px) {
+  .btn {
+    .mat-button-wrapper {
+      padding-top: 14px !important;
+    }
+  }
+}
