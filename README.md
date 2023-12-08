@@ -1,4 +1,4 @@
-# StopWatch
+# StopWatch WIP!
 
 Getting my hands dirty with some Angular basics by creating a Stop Watch web application.
 
