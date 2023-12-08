@@ -1,4 +1,4 @@
-# StopWatch WIP!
+# StopWatch (a WIP)!
 
 Exploring Angular basics, I've built a hands-on mobile-responsive Stop Watch web app. Give it a try [here](https://stop-watch-47349.web.app/)!
 
